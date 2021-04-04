@@ -5,7 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: #681a1a;
+            font: normal 15pt Arial;
+        }
+
+        header {
+
+            color: oldlace;
+            text-align: center;
+        }
+
+        section {
+            background: rgb(214, 214, 214);
+            border-radius: 10px;
+            padding: 15px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+        }
+
+        footer{
+            color: white;
+            text-align: center;
+            font-style: italic;
+        }
+
+        div {
+            text-align: center;
+            padding: 7px;
+        }
+    </style>
 </head>
 <body id='corpo'>
     <header>
@@ -23,6 +54,25 @@
     <footer>
         <p>&copy; Meu_primeiro_site_com_interatividade</p>
     </footer>
-    <script src="script.js"></script>
+    <script>
+        function carregar() {
+            var foto = document.getElementById('foto')
+            var msg = document.getElementById('msg')
+            var data = new Date()
+            var hora = data.getHours()
+            msg.innerHTML = `Agora são ${hora} horas`
+                if (hora >= 0 && hora < 12) {
+                document.body.style.background = '#dc8e4d'
+                foto.src = 'Fotos/manha.png'
+            } else if (hora >= 12 && hora < 18) {
+                document.body.style.background = '#7b4e75'
+            } else {
+                foto.src = 'Fotos/Sem título.png'
+                document.body.style.background = '#00192d'
+            }
+            }
+        var corpo = document.getElementById('corpo')
+        corpo.addEventListener('load', carregar())
+    </script>
 </body>
 </html>
