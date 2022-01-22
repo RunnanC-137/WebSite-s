@@ -3,13 +3,12 @@ body {
     font: normal 15pt Arial;
 }
 
-footer{
-    color: white;
+
+#section11 {
     text-align: center;
-    font-style: italic;
 }
 
- #headere1 {
+#headere1 {
 
     color: oldlace;
     text-align: center;
@@ -20,12 +19,11 @@ footer{
     background: rgb(214, 214, 214);
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    width: 55vw;
+    max-width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
 }
-
-
 
 #msg {
     text-align: center;
@@ -37,33 +35,45 @@ footer{
     padding: 7px;
 }
 
+
+
+
+
+
 #section22{
-    width: 350px;
     float: left;
     font-size: 15pt;   
     margin-left: 10%;
+    text-align: center;
 }
 
 #header2 {
-
     color: oldlace;
-    text-align: center;
-
 }
 
 #section2 {
     background: rgb(214, 214, 214);
+    text-align: left;
     border-radius: 10px;
     padding: 15px;
-    width: 350px;
+    width: 40vw;
+    max-width: 220px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+    box-sizing: border-box;
+    margin-right: 30px;
 }
+
+
+
+
+
+
 
 #section33{
     float: right;
     margin-right: 10%;
-    width: 350px;
     font-size: 15pt;   
+    text-align: center;
 }
 
 #header3 {
@@ -73,15 +83,17 @@ footer{
 }
 
 #section3 {
+    text-align: left;
+    box-sizing: border-box;
     background: rgb(214, 214, 214);
     border-radius: 10px;
     padding: 15px;
-    width: 350px;
+    width: 40vw;
+    max-width: 250px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
 }
 
 footer{
     color: white;
-    text-align: center;
     font-style: italic;
 }
