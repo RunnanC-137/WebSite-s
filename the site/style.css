@@ -1,17 +1,21 @@
 body {
     background: #681a1a;
     font: normal 15pt Arial;
+    margin-left: 5vw;
 }
 
 
-#section11 {
+#section11 { 
     text-align: center;
+    box-sizing: border-box;
+    width: 55vw;
+    max-width: 400px;
+    margin: left;
+    box-sizing: border-box;
 }
 
 #headere1 {
-
     color: oldlace;
-    text-align: center;
     font-size: 15pt;
 }
 
@@ -20,14 +24,8 @@ body {
     border-radius: 10px;
     padding: 15px;
     width: 55vw;
-    max-width: 500px;
-    margin: auto;
+    max-width: 400px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
-}
-
-#msg {
-    text-align: center;
-    padding: 7px;
 }
 
 #fot {
@@ -35,16 +33,16 @@ body {
     padding: 7px;
 }
 
-
-
-
-
-
-#section22{
-    float: left;
-    font-size: 15pt;   
-    margin-left: 10%;
+#msg {
     text-align: center;
+
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+#section22{
+    font-size: 15pt;   
+    text-align: center;
+    width: 50vw;
+    max-width: 220px;
 }
 
 #header2 {
@@ -56,42 +54,41 @@ body {
     text-align: left;
     border-radius: 10px;
     padding: 15px;
-    width: 40vw;
+    width: 50vw;
     max-width: 220px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
     box-sizing: border-box;
     margin-right: 30px;
 }
-
-
-
-
-
-
-
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
 #section33{
-    float: right;
-    margin-right: 10%;
     font-size: 15pt;   
     text-align: center;
+    margin-top: 30px;
+    width: 50vw;
+    max-width: 220px;
 }
 
 #header3 {
-
     color: oldlace;
-    text-align: center;
+}
+
+#tab {
+    text-align: left;
+    padding: 7px;
 }
 
 #section3 {
-    text-align: left;
     box-sizing: border-box;
+    text-align: left;
     background: rgb(214, 214, 214);
     border-radius: 10px;
     padding: 15px;
-    width: 40vw;
+    width: 50vw;
     max-width: 250px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
 }
+
 
 footer{
     color: white;
