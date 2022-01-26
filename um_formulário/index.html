@@ -4,11 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My questions</title>
 </head>
-<body>
+<body >
     <div>
-        <h1></h1>
+        <h1>Cadastro</h1>
+        <p>compleste o questionário</p>
     </div>
+    <form action="">
+        <fieldset>
+            <div>
+                <label for="">Nome</label>
+                <input type="text" name='nome' id='nome'>
+            </div>       
+
+            <div>
+                <label for="">Sobrenome</label>
+                <input type="text" name='sobrenome' id='sobrenome'>
+            </div>
+        </fieldset>
+
+        <div>
+            <label for="">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="">Escolha sua área</label>
+            <label for="">
+                <input type="radio" name='devweb' value="frontend" checked> frontend
+            </label>
+            <label for="">
+                <input type="radio" name='devweb'value="backend">backend
+            </label>
+            <label for="">
+                <input type="radio" name='devweb' value="fullstack">fullstack
+            </label>
+        </div>
+
+        <div>
+            <label for="">Senioridade</label>
+            <select name="senioridade" id="senioridade">
+                <option selected disabled value="">Selecione...</option>
+                <option value="junior">Junior</option>
+                <option value="pleno">Pleno</option>
+                <option value="senior">Sénior</option>
+            </select>
+        </div>
+
+        <fieldset>
+            <div>
+                <label for="">Quais suas habilidades</label>
+                <input type="checkbox" name="tecnologia" id="tecnologia" value="">
+            </div>
+        </fieldset>
+    </form>
+    
 </body>
 </html>
