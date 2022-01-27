@@ -13,24 +13,24 @@
         <p class="titles">compleste o questionário</p>
     </div>
     <form action="">
-        <fieldset>
-            <div>
-                <label for="">Nome</label>
-                <input type="text" name='nome' id='nome'>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" name='nome' id='nome' required>
             </div>       
 
-            <div>
-                <label for="">Sobrenome</label>
-                <input type="text" name='sobrenome' id='sobrenome'>
+            <div class="campo">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name='sobrenome' id='sobrenome' required>
             </div>
         </fieldset>
 
-        <div>
-            <label for="">Email</label>
-            <input type="email" name="email" id="email">
+        <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
         </div>
 
-        <div>
+        <div class="campo">
             <label for="">Escolha sua área</label>
             <label for="">
                 <input type="radio" name='devweb' value="frontend" checked> frontend
@@ -43,8 +43,8 @@
             </label>
         </div>
 
-        <div>
-            <label for="">Senioridade</label>
+        <div class="campo">
+            <label for="senioridade">Senioridade</label>
             <select name="senioridade" id="senioridade">
                 <option selected disabled value="">Selecione...</option>
                 <option value="junior">Junior</option>
@@ -53,8 +53,8 @@
             </select>
         </div>
 
-        <fieldset>
-            <div>
+        <fieldset class="grupo">
+            <div class="campo">
                 <label for="">Quais suas habilidades</label>
                 <input type="checkbox" name="tecnologia1" id="tecnologia1" value="">
                 <label for="tecnologia1">HTML</label>
@@ -66,13 +66,13 @@
                 <label for="tecnologia4">Python</label>
             </div>
         </fieldset>
-        <div>
+        <div class="campo">
             <br>
             <label for="">Conte um pouco sobre sua experiência</label>
             <textarea name="xp" id="xp" rows="6" style="width: 26em"></textarea>
         </div>
 
-        <button>enviar</button>
+        <button id="botao">enviar</button>
     </form>
     
 </body>
