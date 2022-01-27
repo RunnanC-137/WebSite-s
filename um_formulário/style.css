@@ -1,3 +1,20 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-weight: 600;
+}
+
+.titles {
+    color: #380B61
+}
+.titles p{
+    color: black;
+}
+
+fieldset {
+
 }
