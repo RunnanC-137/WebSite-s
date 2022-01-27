@@ -11,10 +11,8 @@ label {
 .titles {
     color: #380B61
 }
-.titles p{
-    color: black;
-}
+
 
 fieldset {
-
+    color: #000;
 }
