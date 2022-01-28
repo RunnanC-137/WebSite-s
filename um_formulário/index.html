@@ -1,79 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>My questions</title>
-</head>
-<body >
-    <div>
-        <h1 class="titles">Cadastro</h1>
-        <p class="titles">compleste o questionário</p>
-    </div>
-    <form action="">
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="nome">Nome</label>
-                <input type="text" name='nome' id='nome' required>
-            </div>       
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>My questions</title>
+    </head>
+    <body >
 
-            <div class="campo">
-                <label for="sobrenome">Sobrenome</label>
-                <input type="text" name='sobrenome' id='sobrenome' required>
-            </div>
-        </fieldset>
-
-        <div class="campo">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
-        </div>
-
-        <div class="campo">
-            <label for="">Escolha sua área</label>
-            <label for="">
-                <input type="radio" name='devweb' value="frontend" checked> frontend
-            </label>
-            <label for="">
-                <input type="radio" name='devweb'value="backend">backend
-            </label>
-            <label for="">
-                <input type="radio" name='devweb' value="fullstack">fullstack
-            </label>
-        </div>
-
-        <div class="campo">
-            <label for="senioridade">Senioridade</label>
-            <select name="senioridade" id="senioridade">
-                <option selected disabled value="">Selecione...</option>
-                <option value="junior">Junior</option>
-                <option value="pleno">Pleno</option>
-                <option value="senior">Sénior</option>
-            </select>
-        </div>
-
-        <fieldset class="grupo">
-            <div class="campo">
-                <label for="">Quais suas habilidades</label>
-                <input type="checkbox" name="tecnologia1" id="tecnologia1" value="">
-                <label for="tecnologia1">HTML</label>
-                <input type="checkbox" name="tecnologia2" id="tecnologia2" value="">
-                <label for="tecnologia2">CSS</label>
-                <input type="checkbox" name="tecnologia3" id="tecnologia3" value="">
-                <label for="tecnologia3">JavaScript</label>
-                <input type="checkbox" name="tecnologia4" id="tecnologia4" value="">
-                <label for="tecnologia4">Python</label>
-            </div>
-        </fieldset>
-        <div class="campo">
+        <div>
+            <h1 class="titles" id='title'>Cadastro de DEVs</h1>
+            <p class="titles" id="subtitle">compleste suas informações</p>
             <br>
-            <label for="">Conte um pouco sobre sua experiência</label>
-            <textarea name="xp" id="xp" rows="6" style="width: 26em"></textarea>
         </div>
 
-        <button id="botao">enviar</button>
-    </form>
-    
-</body>
+        <form action="">
+
+            <fieldset class="grupo">
+
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" name='nome' id='nome' required>
+                </div>       
+
+                <div class="campo">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name='sobrenome' id='sobrenome' required>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="">De qual lado da aplicação você desenvolve?</label>
+                <label>
+                    <input type="radio" name='devweb' value="frontend" checked> frontend
+                </label>
+                <label>
+                    <input type="radio" name='devweb'value="backend">backend
+                </label>
+                <label>
+                    <input type="radio" name='devweb' value="fullstack">fullstack
+                </label>
+            </div>
+
+            <div class="campo">
+                <label for="senioridade"><strong>Senioridade</strong></label>
+                <select id="senioridade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Júnior</option>
+                  <option>Pleno</option>
+                  <option>Sênior</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+
+                <div class="caixa">
+                    <label>Selecione as tecnologias que utiliza:</label><br><br>
+                    <input type="checkbox" name="tecnologia1" id="tecnologia1" value="">
+                    <label for="tecnologia1">HTML</label>
+                    <input type="checkbox" name="tecnologia2" id="tecnologia2" value="">
+                    <label for="tecnologia2">CSS</label>
+                    <input type="checkbox" name="tecnologia3" id="tecnologia3" value="">
+                    <label for="tecnologia3">JavaScript</label>
+                    <input type="checkbox" name="tecnologia4" id="tecnologia4" value="">
+                    <label for="tecnologia4">Python</label>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label for="">Conte um pouco sobre sua experiência</label>
+                <textarea name="xp" id="xp" rows="6" style="width: 26em"></textarea>
+            </div>
+
+            <button id="botao">enviar</button>
+            
+        </form>
+        
+    </body>
 </html>
