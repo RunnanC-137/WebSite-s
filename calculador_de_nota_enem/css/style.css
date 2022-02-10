@@ -125,3 +125,27 @@ div.select {
 
     color: cornflowerblue;
 }
+
+input.envio {
+    margin-bottom: 10%;
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: rgba(90, 58, 119, 0.945);;
+    border: 2px solid rgb(20, 80, 80);
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    outline: 0;
+    position: relative;
+    left: 60%;
+    
+    
+}
+
+input.envio:hover {
+
+    background-color: rgba(127, 255, 212, 0.39);
+    color: rgb(12, 10, 8);
+    
+}

@@ -10,18 +10,18 @@ submit.addEventListener( "click", element => {
     let pesos = document.getElementsByClassName("peso")
 
     let media = 0
+    let divisor = 0
     let gamb = 0
 
-    for (nota of notas) {
+    for (let nota of notas) {
 
         
         media += (parseFloat(nota.value) * parseInt(pesos[gamb].value))
+        divisor += parseInt(pesos[gamb].value)
         gamb += 1
     }
-    
-    h1.innerHTML = `Sua media foi ${media/5}`
+    h1.innerHTML = `Sua media foi ${media/divisor}`
 })
-console.log()
 
 
 // escopo das funçoes
