@@ -1,0 +1,51 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: pixelada;
+    src: url(../fonts/);
+}
+
+main.caixa-mae {
+
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20vh;
+    max-height: 500px;
+    
+}
+
+
+div.resultado {
+
+    text-align: center;
+    padding: 5%;
+    background-color: blueviolet;
+}
+
+div.notas {
+
+    background-color: rgba(0, 255, 255, 0.808);
+    height: 330px;
+    
+}
+
+.notas label {
+
+    display: block;
+    padding: 5% 0 0 4%;
+    position: relative;
+    font-size: 140%;
+}
+
+.notas input {
+
+    border: none;
+    position: absolute;
+    padding: 1%;
+    right: 10%;
+    
+}

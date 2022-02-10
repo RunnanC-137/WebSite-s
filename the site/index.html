@@ -1,75 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>CV-JS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-<body id='corpo'>
+
+<body id='main'>
+
     <main id='exs'>
-        <section id='section11'>
-            <header id="headere1">
-                <h1 id='msg'>Hora do dia</h1>
-            </header>  
-            <section id="section1">
-      
-                <div id="fot">
-                    <img id='foto' src="Fotos/tarde.png" alt="lorena">
-                    <p></p>
-                </div>
-            
-            </section>
-            <footer>
-                <p>&copy;Primeiro Exercício </p>
-            </footer> 
+
+        <section class="exercicio-1">
+
+            <header class="hora-do-dia">
+
+                <h1 class="horas-do-dia">Hora do dia</h1>
+
+            </header>   
+
         </section>
-        
-        <section id="section22">
-            <header id="header2">
+
+        <!--SEGUNDA PARTE-->  
+        <section class="exercicio-2">
+
+            <header class="cabecalho">
+
                 <h1>Contagem...</h1>
+
             </header>  
-            <section id="section2">
-                <div id='msg2'>
-                <p>Inicio <input type="number" name="" id="ini"></p>
-                <p>Fim <input type="number" name="" id="fim"></p>
-                <p>Contagem <input type="number" name="" id="passo"></p>
-                <p><input type="button" value="Contar" id='but' onclick="contar()"></p>
-                </div >             
+
+            <section class="contagem">
+
+                <div class='contagem'>
+
+                <label>
+                    Inicio <input type="number" name="" id="ini">
+                </label>
+                <label>
+                    Fim <input type="number" name="" id="fim">
+                </label>
+                <label>
+                    Contagem <input type="number" name="" id="passo">
+                </label>
+                <label>
+                    <input type="button" value="Contar" id='but' onclick="contar()">
+                </label>
+
+                </div >   
+
                 <div id='dados'>
                     preparando a contagem...
                 </div>
+
             </section>
-            <footer>
-                <p>&copy;Segundo Exercício</p>
-            </footer>
+
         </section>
         
-        
+        <!--TERCEIRA PARTE-->
         <section id="section33">
+
             <header id="header3">
+
                 <h1>Tabuada</h1>
+
             </header>  
+
             <section id="section3">
+
                 <div id='tab'>
+
                 <p>Número: <input type="number" name="" id="oi" placeholder="Número"> </p>
                 <p> <input type="button" value="Calcular" onclick="calcular()" ></p>
-                </div>             
+
+                </div>    
+
                 <div id='dov'>
+
                     <select id='sele' size="10">
+                        
                         <option value="">Calculo...</option>
+
                     </select>
+
                 </div>
             
             </section>
-            <footer>
-                <p>&copy;Terceiro Execício</p>
-            </footer>
+
         </section> 
+
     </main>
     
-    <script src="script.js">
+    <script src="scripts/script.js">
     </script>
 </body>
 </html>

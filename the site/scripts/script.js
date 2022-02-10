@@ -1,20 +1,29 @@
-function carregar() {
-    var foto = document.getElementById('foto')
-    var msg = document.getElementById('msg')
+
+ carregar = function() {
+
+    var h = document.querySelector(".horas-do-dia")
     var data = new Date()
     var hora = data.getHours()
     var minutos = data.getMinutes()
-    msg.innerHTML = `Agora são ${hora}:${minutos} horas`
-    if (hora >= 0 && hora < 12) {
-        document.body.style.background = '#dc8e4d'
-        foto.src = 'Fotos/manha.png'
-    } else if (hora >= 12 && hora < 18) {
-        document.body.style.background = '#7b4e75'
-    } else {
-        foto.src = 'Fotos/noite.png'
-        document.body.style.background = '#00192d'
-    }
+    minutos < 10 ? minutos = `0${minutos}` : minutos = minutos
 
+    h.innerHTML = `${hora}:${minutos}`
+
+    if (hora >= 0 && hora < 12) {
+
+        document.body.style.backgroundImage = "url(https://c.wallhere.com/photos/f4/50/pixel_art_waterfall_turtle-167853.png!d)"
+
+    } else if (hora >= 12 && hora < 18) {
+
+        document.body.style.backgroundImage = "url(https://c.wallhere.com/photos/1b/58/pixelated_pixel_art_pixels_8_bit_space_astronaut_spacesuit_helmet-35188.png!d)"
+
+    } else {
+
+        document.body.style.backgroundImage = "url(https://c.wallhere.com/photos/52/1c/digital_art_pixel_art_pixelated_pixels_nature_landscape_Shovel_Knight_video_games-24164.jpg!d)"
+
+    }
+    
+    window.onload(carregar())
 
 
 }
@@ -73,6 +82,5 @@ function calcular() {
 
 
 var but = document.getElementById('but')
-var corpo = document.getElementById('corpo')
-corpo.addEventListener('load', carregar())
+window.onload(carregar())
 
