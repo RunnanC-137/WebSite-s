@@ -1,51 +1,127 @@
-* {
-
-    margin: 0px;
-    padding: 0px;
+* { 
+    
+    margin: 0px; 
+    padding: 0px; 
 }
 
-@font-face {
-    font-family: pixelada;
-    src: url(../fonts/);
+@font-face { 
+    
+    font-family: pixelada; 
+    src: url("../fonts/04B_30__.TTF"); 
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(127, 255, 212, 0.39);
+    height: 100vh;
 }
 
 main.caixa-mae {
-
-    max-width: 500px;
-    margin: auto;
-    margin-top: 20vh;
-    max-height: 500px;
     
+    font-family: pixelada;
 }
-
 
 div.resultado {
 
     text-align: center;
-    padding: 5%;
-    background-color: blueviolet;
+    padding: 5%; 
+    background-color: rgba(90, 58, 119, 0.945);
+}
+
+.resultado h1 {
+
+    color: wheat;
 }
 
 div.notas {
 
-    background-color: rgba(0, 255, 255, 0.808);
-    height: 330px;
-    
+    background-color: 
+    rgba(123, 173, 173, 0.966); 
 }
 
 .notas label {
 
-    display: block;
-    padding: 5% 0 0 4%;
-    position: relative;
-    font-size: 140%;
+    display: block; 
+    padding: 5% 0px 0px 4%; 
+    position: relative; 
+    font-size: 150%; 
+    color: aliceblue;
 }
 
-.notas input {
+.notas input.nota {
+
+    border: none; 
+    position: absolute; 
+    right: 5%; 
+    padding: 1%; 
+    width: 20%;
+    font-family: inherit;
+}
+
+input.nota, select.peso {
+
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0!important;
+    border-radius: .25em
+}
+
+.notas select.peso {
 
     border: none;
     position: absolute;
-    padding: 1%;
-    right: 10%;
+    left: 2%;
+    top: 10%;
+    text-align: left;
+    font-size: 70%;
+    width: 20%;
+    font-family: inherit;
+
+
+    flex:1;
+    padding: .15em .5em .15em .2em;
+    cursor: pointer;
+}
+
+select.peso::-ms-expand {
+
+    display:none;
+}
+
+div.select {
+
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 2em;
+    line-height: 3;
+    overflow: hidden;
     
+
+}
+
+.select::after {
+
+    content: '\25BC';
+    position: absolute;
+    top: -40%;
+    left: 11%;
+    padding: 0 1em;
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s all ease;
+}
+
+.select:hover::after {
+
+    color: cornflowerblue;
 }
