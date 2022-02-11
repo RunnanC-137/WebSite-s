@@ -183,8 +183,8 @@ input.envio:hover {
 
         content: '\25BC';
         position: absolute;
-        top: -20%;
-        left: 6%;
+        top: -27%;
+        left: 5%;
         padding: 0 1em;
         cursor: pointer;
         pointer-events: none;
