@@ -149,3 +149,64 @@ input.envio:hover {
     color: rgb(12, 10, 8);
     
 }
+
+@media screen and (max-width: 600px){
+    
+    .caixa-mae {
+        width: 300px;
+    }
+
+    .notas label{
+        text-align: center;
+        font-size: 180%;
+    }
+
+    .notas input.nota {
+        display: block;
+        position: absolute; 
+        top: 50%;
+        right: 9%; 
+        padding: 2.5%; 
+        width: 50%;
+
+    }
+
+    .notas div.select {
+
+        text-align: right;
+    }
+
+    
+    .select::after {
+
+        content: '\25BC';
+        position: absolute;
+        top: -40%;
+        left: 1.5%;
+        padding: 0 1em;
+        cursor: pointer;
+        pointer-events: none;
+        transition: .25s all ease;
+    }
+
+  
+    .notas select.peso {
+
+        position: absolute;
+        left: 2%;
+        top: 10%;
+        font-size: 70%;
+        width: 10%;
+        font-family: inherit;
+
+    }
+
+    input.envio {
+        margin-bottom: 10%;
+        padding: 10px 20px;
+        position: relative;
+        left: -5%;
+        
+        
+    }
+}
