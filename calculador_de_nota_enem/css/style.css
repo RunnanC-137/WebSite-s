@@ -100,7 +100,7 @@ select.peso::-ms-expand {
 div.select {
 
     position: relative;
-    display: flex;
+    display: block;
     width: 20em;
     height: 2em;
     line-height: 3;
@@ -200,7 +200,7 @@ input.envio:hover {
         position: absolute;
         left: 2%;
         top: 10%;
-        font-size: 70%;
+        font-size: 80%;
         width: 80%;
         font-family: inherit;
 
