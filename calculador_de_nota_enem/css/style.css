@@ -23,6 +23,7 @@ body {
 main.caixa-mae {
     
     font-family: pixelada;
+    width: 500px;
 }
 
 div.resultado {
@@ -48,7 +49,7 @@ div.notas {
     display: block; 
     padding: 5% 0px 0px 4%; 
     position: relative; 
-    font-size: 150%; 
+    font-size: 200%; 
     color: aliceblue;
 }
 
@@ -57,8 +58,9 @@ div.notas {
     border: none; 
     position: absolute; 
     right: 5%; 
-    padding: 1%; 
-    width: 20%;
+    padding: 2%; 
+    font-size: 100%;
+    width: 25%;
     font-family: inherit;
 }
 
@@ -75,6 +77,18 @@ input.nota, select.peso {
     border-radius: .25em
 }
 
+div.select {
+
+    position: relative;
+    display: block;
+    width: 2em;
+    height: 2em;
+    line-height: 3;
+    overflow: hidden;
+    
+
+}
+
 .notas select.peso {
 
     border: none;
@@ -82,12 +96,12 @@ input.nota, select.peso {
     left: 2%;
     top: 10%;
     text-align: left;
-    font-size: 70%;
-    width: 20%;
+    font-size: 80%;
+    width: 100%;
+    border-radius: 5px;
     font-family: inherit;
 
 
-    flex:1;
     padding: .15em .5em .15em .2em;
     cursor: pointer;
 }
@@ -97,24 +111,13 @@ select.peso::-ms-expand {
     display:none;
 }
 
-div.select {
-
-    position: relative;
-    display: block;
-    width: 20em;
-    height: 2em;
-    line-height: 3;
-    overflow: hidden;
-    
-
-}
 
 .select::after {
 
     content: '\25BC';
     position: absolute;
     top: -40%;
-    left: 11%;
+    left: 1%;
     padding: 0 1em;
     cursor: pointer;
     pointer-events: none;
