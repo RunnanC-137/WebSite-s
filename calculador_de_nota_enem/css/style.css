@@ -165,6 +165,7 @@ input.envio:hover {
         display: block;
         position: absolute; 
         top: 50%;
+        font-size: 100%;
         right: 9%; 
         padding: 2.5%; 
         width: 50%;
@@ -182,8 +183,8 @@ input.envio:hover {
 
         content: '\25BC';
         position: absolute;
-        top: -40%;
-        left: 1.5%;
+        top: -20%;
+        left: 6%;
         padding: 0 1em;
         cursor: pointer;
         pointer-events: none;
@@ -200,6 +201,7 @@ input.envio:hover {
         position: absolute;
         left: 2%;
         top: 10%;
+        padding: 10px;
         font-size: 80%;
         width: 80%;
         font-family: inherit;
