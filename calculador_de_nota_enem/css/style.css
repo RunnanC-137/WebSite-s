@@ -23,7 +23,6 @@ body {
 main.caixa-mae {
     
     font-family: pixelada;
-    width: 500px;
 }
 
 div.resultado {
@@ -153,7 +152,7 @@ input.envio:hover {
     
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
     
     .caixa-mae {
         width: 300px;
