@@ -3,7 +3,7 @@
 ## Seja bem ao meu site/Portifolio
 #### Aqui eu te mostrarei minhas habilidades como programador atraves dos dos meus projetos, fique avontade para testar tudo que puder
 
-### [O Jogo do Bixo](https://runnanc-137.github.io/WebSite-s/Jogo_Do_Bixo)
+### => [O Jogo do Bixo](https://runnanc-137.github.io/WebSite-s/Jogo_do_Bixo) <=
 
   Ainda está em andamento, atualmen e um sorteio bem simples apenas com alguns bichos, porém, no futuro será o maior site de apostas inlegais que o mundo já viu kkkk zueira  
 
@@ -15,6 +15,14 @@
 
 ### [Instrumentos](https://runnanc-137.github.io/WebSite-s/Instrumentos)
 
+Um piano ou uma bateria você decide o que quer tocar
+
 ### [Meu blog](https://runnanc-137.github.io/WebSite-s/My_Blog)
 
 ### [Criador de currículo](https://runnanc-137.github.io/WebSite-s/Criador_De_Curriculo)
+
+
+
+
+
+Made for Ruan Vieira [See my Linkeding](https://www.linkedin.com/ruan-viera-04a9ab1b9)
