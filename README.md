@@ -15,6 +15,14 @@
 
 ### [Instrumentos](https://runnanc-137.github.io/WebSite-s/Instrumentos)
 
+Um piano ou uma bateria você decide o que quer tocar
+
 ### [Meu blog](https://runnanc-137.github.io/WebSite-s/My_Blog)
 
 ### [Criador de currículo](https://runnanc-137.github.io/WebSite-s/Criador_De_Curriculo)
+
+
+
+
+
+Mada for Ruan Vieira [See my Linkeding](https://www.linkedin.com/ruan-viera-04a9ab1b9)
