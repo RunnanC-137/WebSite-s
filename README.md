@@ -11,12 +11,12 @@
 ### => [Meus projetinhos](https://github.com/RunnanC-137/Website-s/tree/main/projetinhos) <=
 
 <p>
-  Aqui eu coloco projetos que nao tem muita complexidade mas podem ser bem úteis para determinados momentos como o do enem por exemplo
+  Aqui eu coloco projetos que nao tem muita complexidade, mas podem ser bem úteis para determinados momentos, como o do enem por exemplo
 </p>
 
-### => [Instrumentos](https://github.com/RunnanC-137/Website-s/tree/main/Instrumentos) <=
+### => [Instrumentos 🎶](https://github.com/RunnanC-137/Website-s/tree/main/Instrumentos) <=
 
-Um piano ou uma bateria você decide o que quer tocar
+Nesse repositorio eu virtualiso instrumentos musicais, transferindo para o teclado do computador todas as funções dos instrumentos
 
 ### => [Meu blog](https://github.com/RunnanC-137/Website-s/tree/main/My_Blog) <=
 
