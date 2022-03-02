@@ -18,7 +18,7 @@
 
 Nesse repositorio eu virtualiso instrumentos musicais, transferindo para o teclado do computador todas as funções dos instrumentos
 
-### => [Meu blog](https://github.com/RunnanC-137/Website-s/My_Blog) 
+### => [Meu blog](https://github.com/RunnanC-137/My_Blog) 
 
 Meu blog onde eu vou escrever sobre notícia e materias do meu interesse que eu achar relevate
 
