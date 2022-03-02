@@ -18,11 +18,11 @@
 
 Nesse repositorio eu virtualiso instrumentos musicais, transferindo para o teclado do computador todas as funções dos instrumentos
 
-### => [Meu blog](https://github.com/RunnanC-137/Website-s/tree/main/My_Blog) 
+### => [Meu blog](https://github.com/RunnanC-137/Website-s/My_Blog) 
 
 Meu blog onde eu vou escrever sobre notícia e materias do meu interesse que eu achar relevate
 
-### => [Criador de currículo](https://github.com/RunnanC-137/Website-s/Criador_De_Curriculo) 
+### => [Criador de currículo](https://github.com/RunnanC-137/Criador_De_Curriculo) 
 
 Meu primeiro projetinho que me deu, e ainda da, uma dor de cabeça danada kkk, enfim, aqui eu tento criar uma página que cria curriculos online 
 
