@@ -36,8 +36,16 @@ body {
     background-color: #22d2;
 }
 
-.contato {
+.centralize {
     
     margin: auto;
     text-align: center;
+}
+
+.section-two {
+
+    display: flex;
+    background-color: #ffff;
+    width: 33vh;
+
 }
