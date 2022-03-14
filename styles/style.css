@@ -6,86 +6,38 @@
 
 body {
     display: flex; 
-    align-content: center;
-    align-items: center;
+
     flex-flow: column wrap;
 }
 
-main {
-    display: flex; 
-    justify-content: space-between;
-    align-content: center;
-    flex-flow: column wrap;
-
-    width: 1000px;
-    height: 900px;
-    background-color: rgb(202, 202, 202);
-
-}
-
-header {
-    display: grid;
-    grid-template-areas: "tit cont cont"
-                        "resu resu resu";
-    gap: 50px;
-    margin: 30px;
-    justify-items: space-around;
-
-}
-
-div.title {
-    
-    grid-area: tit;
-    
-}
-
-div.contato {
-    grid-area: cont
-}
-
-.contato h3, .title h1, .title h2 {
-    padding: 0px  0px 15px 0;
-
-}
-
-div.resumo {
-    grid-area: resu
-
-
-}
-
-footer {
-    display: grid;
-    grid-template: auto auto auto auto auto/ auto auto;
-    gap: 20px;
-    align-content: center;
-    justify-content: space-around;
-
-    
-
-
-}
-
-footer header {
-    grid-column-start: 1;
-    grid-column-end: span 2;
-}
-
-.projeto{
+#topMenu {
 
     display: flex;
-    
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    width: 250px;
-    height: 100px;
-    background-color: rgba(85, 62, 187, 0.384);
-    border-radius: 25px;
-
+    background-color: #302;
 }
 
-.projeto a{
+#topMenu li {
 
-    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+}
+
+#topMenu li:first-child {
+
+    margin-right: auto;
+}
+
+.section-one {
+
+    display: flex;
+    height: 33vh;
+    background-color: #22d2;
+}
+
+.contato {
+    
+    margin: auto;
+    text-align: center;
 }

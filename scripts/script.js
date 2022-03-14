@@ -9,14 +9,5 @@ const webSites = {
     jogoDoBixo:{site:"https://runnanc-137.github.io/WebSite-s/Jogo_do_Bixo", nome:"Jogo do bixo"}
 
 }
-////
-for (let index in webSites) {
-    
-projetcts.innerHTML += ` <div class="projeto"> 
-    
-    <a href="${webSites[index].site}"> ${webSites[index].nome}</a>
-</div> `
-
-}
                                         
 
