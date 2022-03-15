@@ -6,7 +6,7 @@
 
 body {
     display: flex; 
-
+    box-sizing: border-box;
     flex-flow: column wrap;
 }
 
@@ -32,8 +32,13 @@ body {
 .section-one {
 
     display: flex;
-    height: 33vh;
+    height: 30vh;
     background-color: #22d2;
+}
+
+.section-one h1, .section-one h2 {
+
+    padding: 15px;
 }
 
 .centralize {
@@ -42,10 +47,52 @@ body {
     text-align: center;
 }
 
-.section-two {
+.centralize .one {
+
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+}
+
+.section {
 
     display: flex;
     background-color: #ffff;
-    width: 33vh;
+    width: 100%;
+    height: 33vw;
 
+}
+
+.section table {
+
+    width: 100%;
+    margin: 50px;
+    
+}
+
+.pictures {
+
+    width: 150px;
+    margin: 30px;
+    text-align: center;
+
+}
+
+.section li, .section h2 {
+    padding: 0.4em;
+
+}
+
+.three {
+    background-color: cadetblue
+}
+
+
+footer{
+
+    display: flex;
+    font-size: 22px;
+    height: 30px;
+    color: white;
+    background-color: rgb(131, 76, 10);
 }
