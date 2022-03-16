@@ -31,8 +31,7 @@ body {
 
 .section-one {
 
-    display: flex;
-    height: 30vh;
+    height: 20vh;
     background-color: #22d2;
 }
 
@@ -45,14 +44,26 @@ body {
     
     margin: auto;
     text-align: center;
+    
+
 }
 
-.centralize .one {
+.one {
 
+    text-align: left;
     display: flex;
-    width: 70vw;
-    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
 }
+
+
+.centralize .resumo {
+
+    
+}
+
 
 .section {
 
@@ -69,6 +80,11 @@ body {
     margin: 50px;
     
 }
+
+.section img {
+
+    width: 240px;
+} 
 
 .pictures {
 
@@ -92,7 +108,7 @@ footer{
 
     display: flex;
     font-size: 22px;
-    height: 30px;
+    height: 33px;
     color: white;
-    background-color: rgb(131, 76, 10);
+    background-color: #302;
 }
