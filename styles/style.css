@@ -1,24 +1,52 @@
+@font-face {
+
+    font-family: flower;
+    src: url("")
+}
+
 *{
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: flower, Arial, sans-serif;
+    
 }
+
+
 
 body {
     display: flex; 
     box-sizing: border-box;
     flex-flow: column wrap;
+    align-items: center;
+    background-color: #a71a5b;
 }
+
+main {
+    max-width: 1000px;
+
+}
+
+
 
 #topMenu {
 
-    display: flex;
-    background-color: #302;
+    display: flex;    
+    
+    background-color: #663366;
 }
+
+#topMenu ul {
+
+    align-content: center;
+    height: 80px;
+    display: flex;
+}
+
 
 #topMenu li {
 
     color: white;
+    font-size: large;
     text-decoration: none;
     display: block;
     padding: 20px 25px;
@@ -29,10 +57,20 @@ body {
     margin-right: auto;
 }
 
+#logo {
+
+    height: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .section-one {
 
+    background-color: azure;
     height: 20vh;
-    background-color: #22d2;
 }
 
 .section-one h1, .section-one h2 {
@@ -70,7 +108,7 @@ body {
     display: flex;
     background-color: #ffff;
     width: 100%;
-    height: 33vw;
+    height: 350px;
 
 }
 
@@ -79,6 +117,14 @@ body {
     width: 100%;
     margin: 50px;
     
+}
+
+.section li {
+
+    margin: 0.3em 0em 0em 1em;
+    text-decoration: none;
+    display: block;
+
 }
 
 .section img {
@@ -99,9 +145,11 @@ body {
 
 }
 
-.three {
-    background-color: cadetblue
+.two {
+
+    background-color: #c7babf;
 }
+
 
 
 footer{
@@ -109,6 +157,7 @@ footer{
     display: flex;
     font-size: 22px;
     height: 33px;
-    color: white;
-    background-color: #302;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    background-color: #663366;
 }
