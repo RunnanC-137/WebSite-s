@@ -23,22 +23,33 @@ body {
 
 main {
     max-width: 1000px;
+    position: absolute;
 
 }
 
+a {
+    color: #a71a5b;
+    text-decoration: none;
+    transition: all 0.35s linear;
 
+}
+
+a:hover {
+
+    font-size: 105%;
+}
 
 #topMenu {
 
     display: flex;    
-    
+    height: 60px;
     background-color: #663366;
 }
 
 #topMenu ul {
 
     align-content: center;
-    height: 80px;
+    
     display: flex;
 }
 
@@ -57,15 +68,18 @@ main {
     margin-right: auto;
 }
 
+#topMenu li a {
+    color: azure;
+}
+
 #logo {
 
     height: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
+
+
+
 
 .section-one {
 
@@ -76,14 +90,6 @@ a {
 .section-one h1, .section-one h2 {
 
     padding: 15px;
-}
-
-.centralize {
-    
-    margin: auto;
-    text-align: center;
-    
-
 }
 
 .one {
@@ -160,4 +166,36 @@ footer{
     color: rgb(255, 255, 255);
     font-weight: bolder;
     background-color: #663366;
+}
+
+.projeto {
+
+    width: 230px;
+    height: 200px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgba(245, 245, 220, 0.479);
+    position: absolute;
+    text-align: center;
+    top: 45px;
+    right: 45px;
+}
+
+.projeto:hover {
+    background-color: rgba(245, 245, 220, 0.945);
+}
+
+.projeto a {
+
+    font-size: 14pt;
+    width: 100%;
+    height: 100%;
+    transition: all 0.35s linear;
+
+}
+
+.projeto a:hover {
+
+    font-size: 15.44pt;
+
 }
