@@ -58,6 +58,10 @@ caixa.addEventListener("mouseover", e => {
     caixa.classList.add("vem")
     logo.classList.add("fui")
 
+    logo.classList.remove("fui-1")
+    caixa.classList.remove("vem-1")
+
+
     logo.innerHTML = "Ruan Vieira"
 
     
@@ -66,6 +70,12 @@ caixa.addEventListener("mouseout", e => {
  
     caixa.classList.remove("vem")
     logo.classList.remove("fui")
+
+
+    caixa.classList.add("vem-1")
+    logo.classList.add("fui-1")
+
+
 
     logo.innerHTML = "RV"
     

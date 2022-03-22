@@ -54,17 +54,6 @@ main {
 }
 
 
-.vem:after {
-    animation: enlargeBlock .5s .0s both, revealBlock .5s .5s both;
-}
-
-
-.fui {
-    animation: fadeInText 0s .5s both;
-}
-
-
-
 @keyframes fadeInText {
 
     from {
@@ -74,6 +63,16 @@ main {
         opacity: 1;
     }
 }
+
+.vem:after {
+    animation: enlargeBlock .5s .0s both, revealBlock .5s .5s both;
+}
+
+
+.fui {
+    animation: fadeInText 0s .5s both;
+}
+
 
 @keyframes revealBlock {
 
@@ -97,6 +96,48 @@ main {
 }
 
 
+
+.fui-1 {
+    animation: TextInfade 0s .5s both;
+}
+
+@keyframes TextInfade {
+
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.vem-1:after{
+
+    animation: Blockenlarge .5s .0s both, Blockreveal .5s .5s both;
+}
+
+@keyframes Blockreveal {
+
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(110%);
+    }
+}
+
+
+@keyframes Blockenlarge {
+
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
 a {
     color: #a71a5b;
     text-decoration: none;
@@ -107,6 +148,11 @@ a {
 a:hover {
 
     font-size: 105%;
+}
+
+p {
+    width: 70%;
+     font-size: 13.13pt;
 }
 
 #topMenu {
