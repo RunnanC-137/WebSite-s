@@ -7,7 +7,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: flower, Arial, sans-serif;
+    font-family: "Russo One", Arial, sans-serif;
     
 }
 
@@ -27,6 +27,76 @@ main {
 
 }
 
+.caixa {
+
+    position: relative;
+
+}
+
+#logo {
+
+    position: relative;
+    overflow: hidden;
+}
+
+#logo:after {
+
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    transform: translateX(-110%);
+    
+}
+
+
+.vem:after {
+    animation: enlargeBlock .5s .0s both, revealBlock .5s .5s both;
+}
+
+
+.fui {
+    animation: fadeInText 0s .5s both;
+}
+
+
+
+@keyframes fadeInText {
+
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes revealBlock {
+
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(110%);
+    }
+}
+
+
+@keyframes enlargeBlock {
+
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
 a {
     color: #a71a5b;
     text-decoration: none;
@@ -42,7 +112,7 @@ a:hover {
 #topMenu {
 
     display: flex;    
-    height: 60px;
+    height: 50px;
     background-color: #663366;
 }
 
@@ -60,7 +130,8 @@ a:hover {
     font-size: large;
     text-decoration: none;
     display: block;
-    padding: 20px 25px;
+    padding: 15px 25px;
+    position: relative;
 }
 
 #topMenu li:first-child {
@@ -76,9 +147,6 @@ a:hover {
 
     height: 10px;
 }
-
-
-
 
 
 .section-one {
@@ -178,7 +246,8 @@ footer{
     position: absolute;
     text-align: center;
     top: 45px;
-    right: 45px;
+    right: -50px;
+    opacity: 0
 }
 
 .projeto:hover {
@@ -196,6 +265,6 @@ footer{
 
 .projeto a:hover {
 
-    font-size: 15.44pt;
+    font-size: 108%;
 
 }

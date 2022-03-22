@@ -1,6 +1,10 @@
 /// Escopo da variáveis 
 const projetcts = document.querySelector(".projetos")
-const logo = document.querySelector("#logo")
+
+
+const logo = document.querySelector(".caixa")
+const caixa = document.querySelector("#logo")
+
 
 const projetct = document.querySelector(".projeto")
 
@@ -49,31 +53,21 @@ img = ["", ""]
 
 
 /////
-logo.addEventListener("mouseover", e => {
+caixa.addEventListener("mouseover", e => {
+     
+    caixa.classList.add("vem")
+    logo.classList.add("fui")
 
     logo.innerHTML = "Ruan Vieira"
-    logo.classList += "logo-final"
-    setTimeout(1000)
+
+    
 })
-logo.addEventListener("mouseout", e => {
+caixa.addEventListener("mouseout", e => {
+ 
+    caixa.classList.remove("vem")
+    logo.classList.remove("fui")
 
-    logo.innerHTML = "RV";
-    logo.classList -= "logo-final";
-
-})
-
-projetcts.addEventListener("mouseover", e => {
-
-    projetcts.innerHTML = `Projetos
-    <div class="projeto">
-        <ol>
-            <li><a href="#Criador de curriculos" style="color:rgb(5, 102, 105)">Criador de curriculos</a></li>
-        </ol>
-    </div>`
+    logo.innerHTML = "RV"
+    
 })
 
-projetcts.addEventListener("mouseout", e => {
-
-    projetcts.innerHTML = `Projetos`
-
-})
