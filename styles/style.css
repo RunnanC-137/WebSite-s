@@ -216,6 +216,13 @@ p {
     
 }
 
+.one p {
+
+    width:60%; 
+    padding-right: 15pt; 
+    text-align: justify ;
+}
+
 
 .centralize .resumo {
 
@@ -314,3 +321,37 @@ footer{
     font-size: 108%;
 
 }
+
+@media screen and (max-width: 1000px) {
+
+    main{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    main{
+        width: 99vw;
+    }
+    .section-one {
+        height: 250px;
+    }
+
+    .one {
+        flex-flow: column;
+        
+    }
+    .titles {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .titles h1 {
+        width: 250px;
+    }
+    .one p {
+        width: 90%;
+    }
+}
+
