@@ -150,9 +150,9 @@ a:hover {
     font-size: 105%;
 }
 
-p {
+.paragrafo {
     width: 70%;
-     font-size: 13.13pt;
+    font-size: 13.13pt;
 }
 
 #topMenu {
@@ -201,12 +201,9 @@ p {
     height: 20vh;
 }
 
-.section-one h1, .section-one h2 {
 
-    padding: 15px;
-}
 
-.one {
+.section-one {
 
     text-align: left;
     display: flex;
@@ -216,7 +213,11 @@ p {
     
 }
 
-.one p {
+.titles h1, .titles h2 {
+
+    padding: 15px;
+}
+.section-one p {
 
     width:60%; 
     padding-right: 15pt; 
@@ -336,9 +337,7 @@ footer{
     }
     .section-one {
         height: 250px;
-    }
-
-    .one {
+    
         flex-flow: column;
         
     }
@@ -348,9 +347,9 @@ footer{
         justify-content: space-between;
     }
     .titles h1 {
-        width: 250px;
+        width: 230px;
     }
-    .one p {
+    .section-one p {
         width: 90%;
     }
 }
