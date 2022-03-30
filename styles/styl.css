@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -140,7 +139,7 @@ a {
 
 }
 
-a:hover {
+.link-animado:hover {
 
     font-size: 105%;
 }
@@ -189,17 +188,10 @@ a:hover {
     height: 10px;
 }
 
-
-.section-one {
+.description {
 
     background-color: azure;
     height: 20vh;
-}
-
-
-
-.section-one {
-
     text-align: left;
     display: flex;
     align-items: center;
@@ -212,67 +204,38 @@ a:hover {
 
     padding: 15px;
 }
-.section-one p {
+
+.description p {
 
     width:60%; 
     padding-right: 15pt; 
     text-align: justify ;
 }
 
-
-.centralize .resumo {
-
-    
-}
-
-
 .section {
 
-    display: flex;
-    background-color: #ffff;
+    display: grid;
+    grid-template: auto  / auto auto;
+    background-color: rgb(212, 79, 79);
     width: 100%;
     height: 350px;
 
 }
 
-.section table {
+.section .img {
 
-    width: 100%;
-    margin: 50px;
+    margin: auto;
     
 }
 
-.section li {
+.img img {
 
-    margin: 0.3em 0em 0em 1em;
-    text-decoration: none;
-    display: block;
-
+    width: 200px;
 }
 
-.section img {
-
-    width: 240px;
+.section .project-description {
+    margin: auto;
 } 
-
-.pictures {
-
-    width: 150px;
-    margin: 30px;
-    text-align: center;
-
-}
-
-.section li, .section h2 {
-    padding: 0.4em;
-
-}
-
-.two {
-
-    background-color: #c7babf;
-}
-
 
 
 footer{
@@ -283,69 +246,5 @@ footer{
     color: rgb(255, 255, 255);
     font-weight: bolder;
     background-color: #663366;
-}
-
-.projeto {
-
-    width: 230px;
-    height: 200px;
-    box-sizing: border-box;
-    border-radius: 20px;
-    background-color: rgba(245, 245, 220, 0.479);
-    position: absolute;
-    text-align: center;
-    top: 45px;
-    right: -50px;
-    opacity: 0
-}
-
-.projeto:hover {
-    background-color: rgba(245, 245, 220, 0.945);
-}
-
-.projeto a {
-
-    font-size: 14pt;
-    width: 100%;
-    height: 100%;
-    transition: all 0.35s linear;
-
-}
-
-.projeto a:hover {
-
-    font-size: 108%;
-
-}
-
-@media screen and (max-width: 1000px) {
-
-    main{
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 750px) {
-
-    main{
-        width: 99vw;
-    }
-    .section-one {
-        height: 250px;
-    
-        flex-flow: column;
-        
-    }
-    .titles {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .titles h1 {
-        width: 230px;
-    }
-    .section-one p {
-        width: 90%;
-    }
 }
 
