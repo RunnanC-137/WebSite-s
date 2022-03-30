@@ -214,28 +214,53 @@ a {
 
 .section {
 
-    display: grid;
-    grid-template: auto  / auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: rgb(212, 79, 79);
     width: 100%;
     height: 350px;
 
 }
 
-.section .img {
 
-    margin: auto;
-    
+
+.img {
+
+    text-align: center;
+    width: 300px;
 }
-
 .img img {
-
     width: 200px;
 }
 
-.section .project-description {
-    margin: auto;
+.project-description {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 } 
+
+.project-description p {
+
+    width: 400px;
+    text-align: justify;
+    font-size: 13.5pt;
+    padding: 10pt;
+}
+
+.one {
+    flex-direction: row-reverse;
+}
+
+.one .project-description {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
 
 
 footer{
