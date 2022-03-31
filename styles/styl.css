@@ -1,26 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Russo One", Arial, sans-serif;
-    
-}
-
-
-
-body {
-    display: flex; 
-    box-sizing: border-box;
-    flex-flow: column wrap;
-    align-items: center;
-    background-color: #a71a5b;
-}
-
-main {
-    max-width: 1000px;
-    position: absolute;
-
-}
-
 .caixa {
 
     position: relative;
@@ -131,9 +108,31 @@ main {
     }
 }
 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Russo One", Arial, sans-serif;
+    
+}
+
+body {
+    display: flex; 
+    box-sizing: border-box;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #a71a5b;
+}
+
+main {
+    width: 1200px;
+    min-width: 900px;
+    position: absolute;
+
+}
+
 
 a {
-    color: #a71a5b;
+    color: #c21b69;
     text-decoration: none;
     transition: all 0.35s linear;
 
@@ -191,13 +190,15 @@ a {
 .description {
 
     background-color: azure;
-    height: 20vh;
-    text-align: left;
+    text-align: justify;
     display: flex;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    
+    justify-content: space-between;
+    width: 100%;    
+}
+
+.titles, .description p {
+    margin: 0pt 45pt;
 }
 
 .titles h1, .titles h2 {
@@ -207,8 +208,8 @@ a {
 
 .description p {
 
-    width:60%; 
-    padding-right: 15pt; 
+    width: 550px; 
+    font-size: 14.5pt;
     text-align: justify ;
 }
 
@@ -217,50 +218,55 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(212, 79, 79);
+    background-color: #663366;
     width: 100%;
     height: 350px;
+    color: azure;
 
 }
-
-
 
 .img {
 
-    text-align: center;
+    display: flex;
+    justify-content: center;
     width: 300px;
+    height: 100%;
 }
 .img img {
-    width: 200px;
+    display: block;
+    transform: scale(0.85);
 }
 
 .project-description {
-    width: 600px;
+    width: 450px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 
 } 
+
+.project-description a:hover {
+
+    font-size: 107%;
+}
 
 .project-description p {
 
     width: 400px;
     text-align: justify;
-    font-size: 13.5pt;
+    font-size: 14pt;
     padding: 10pt;
 }
 
 .one {
     flex-direction: row-reverse;
+    background-color: azure;
+    color: #3a1d1d;
+    
 }
 
-.one .project-description {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 600px;
-}
+
+
 
 
 footer{

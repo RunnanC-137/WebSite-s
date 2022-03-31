@@ -1,49 +1,82 @@
 /// Escopo da variáveis 
-const projetcts = document.querySelector(".projetos")
-
+const projetos = document.querySelector(".projetos")
 
 const logo = document.querySelector(".caixa")
 const caixa = document.querySelector("#logo")
 
 
-const projetct = document.querySelector(".projeto")
+
 
 
 ///
-const webSites = {
-    criadorDeCurriculo:{
-        site:"https://runnanc-137.github.io/WebSite-s/Criador_De_Curriculo",
-        nome:"Criador de currículo",
-        concluido: false,
-        descricao: "lorem",
-        tecnologias: ["HTML", "CSS", "JavaScript"]
-    },
+const webSites = [
     
-    simpleProjects:{
-        site:"https://runnanc-137.github.io/WebSite-s/projetinhos",
-        nome:"simples projects",
-        concluido: false,
-        descricao: "lorem",
-        tecnologias: ["HTML", "CSS", "JavaScript"]
-    },
-    jogoDoBixo:{
-        site:"https://runnanc-137.github.io/WebSite-s/Jogo_do_Bixo",
-        nome:"Jogo do bixo",
-        concluido: false,
-        descricao: "lorem",
-        tecnologias: ["HTML", "CSS", "JavaScript"]
-    },
-    myBlog:{
-        site:"https://runnanc-137.github.io/WebSite-s/My_Blog",
-        nome:"My blog",
-        concluido: false,
-        descricao: "lorem",
-        tecnologias: ["HTML", "CSS", "JavaScript"]
-    },
-
+    {
+        criadorDeCurriculo:{
+            site:"https://runnanc-137.github.io/WebSite-s/Criador_De_Curriculo",
+            nome:"Criador de currículo",
+            concluido: false,
+            descricao: "Aplicação criada com o intuito de ajudar quem não tem um currículo cria um de forma fácil. Projeto criado para treinar as habilidades de DOM e experiência do usuário.",
+            img: "imgs/sites.png.opdownload"
+    }
+},
+    
+    {
+        simpleProjects:{
+            site:"https://runnanc-137.github.io/WebSite-s/projetinhos",
+            nome:"Simples projects",
+            concluido: false,
+            descricao: "Aqui eu crio projetinhos de pequeno porte para fins específicos, são projetos simples execultados com HTML, CSS e JavaScript.",
+            img: "imgs/pngegg.png"
+    }
+},
+    {
+        jogoDoBixo:{
+            site:"https://runnanc-137.github.io/WebSite-s/Jogo_do_Bixo",
+            nome:"Jogo do bixo",
+            concluido: false,
+            descricao: "Nesse projeto eu recrio um famoso jogo de aposta com o objetijo de treinar o tratamento de numeros aleatorios, grid e DOM",
+            img: "imgs/imagem-criacao-de-sites-600x450px.png"
+        
+    }
+},
+    {
+        myBlog:{
+            site:"https://runnanc-137.github.io/WebSite-s/My_Blog",
+            nome:"My blog",
+            concluido: false,
+            descricao: "Um blog em que eu escrevo sobre assustos do meu interesse, seja ele relacionado com programação ou não",
+            img: "imgs/Criacao-de-Websites.png"
+    }
 },
 
-img = ["", ""]
+]
+
+
+webSites.forEach( e => {
+
+    console.log()
+    projetos.innerHTML += `<div class="section ${webSites.indexOf(e)%2 == 0 ? "": "one"}" id="${Object.keys(e)}">
+
+            <div class="img">
+                <img src="${Object.values(e)[0].img}" class="pictures" alt=""> 
+            </div>
+            
+
+            <div class="project-description">
+
+                <h2>
+                    <a href="${Object.values(e)[0].site}" target="_blank" rel="noopener noreferrer">${Object.values(e)[0].nome}</a> ${Object.values(e)[0].concluido == true ? "": "(Em produção)"}
+                </h2>
+                <hr style="width:100%; margin:5pt -6pt">
+                <p>
+                    ${Object.values(e)[0].descricao}
+                </p>
+                
+            </div>
+                
+        </div>`
+})
                                         
 
 //////
