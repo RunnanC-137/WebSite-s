@@ -1,27 +1,3 @@
-
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Russo One", Arial, sans-serif;
-    
-}
-
-
-
-body {
-    display: flex; 
-    box-sizing: border-box;
-    flex-flow: column wrap;
-    align-items: center;
-    background-color: #a71a5b;
-}
-
-main {
-    max-width: 1000px;
-    position: absolute;
-
-}
-
 .caixa {
 
     position: relative;
@@ -132,15 +108,37 @@ main {
     }
 }
 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Russo One", Arial, sans-serif;
+    
+}
+
+body {
+    display: flex; 
+    box-sizing: border-box;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #a71a5b;
+}
+
+main {
+    width: 1200px;
+    min-width: 900px;
+    position: absolute;
+
+}
+
 
 a {
-    color: #a71a5b;
+    color: #c21b69;
     text-decoration: none;
     transition: all 0.35s linear;
 
 }
 
-a:hover {
+.link-animado:hover {
 
     font-size: 105%;
 }
@@ -189,89 +187,85 @@ a:hover {
     height: 10px;
 }
 
-
-.section-one {
+.description {
 
     background-color: azure;
-    height: 20vh;
-}
-
-
-
-.section-one {
-
-    text-align: left;
+    text-align: justify;
     display: flex;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    
+    justify-content: space-between;
+    width: 100%;    
+}
+
+.titles, .description p {
+    margin: 0pt 45pt;
 }
 
 .titles h1, .titles h2 {
 
     padding: 15px;
 }
-.section-one p {
 
-    width:60%; 
-    padding-right: 15pt; 
+.description p {
+
+    width: 550px; 
+    font-size: 14.5pt;
     text-align: justify ;
 }
-
-
-.centralize .resumo {
-
-    
-}
-
 
 .section {
 
     display: flex;
-    background-color: #ffff;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #663366;
     width: 100%;
     height: 350px;
+    color: azure;
 
 }
 
-.section table {
+.img {
 
-    width: 100%;
-    margin: 50px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 100%;
+}
+.img img {
+    display: block;
+    transform: scale(0.85);
+}
+
+.project-description {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+} 
+
+.project-description a:hover {
+
+    font-size: 107%;
+}
+
+.project-description p {
+
+    width: 400px;
+    text-align: justify;
+    font-size: 14pt;
+    padding: 10pt;
+}
+
+.one {
+    flex-direction: row-reverse;
+    background-color: azure;
+    color: #3a1d1d;
     
 }
 
-.section li {
 
-    margin: 0.3em 0em 0em 1em;
-    text-decoration: none;
-    display: block;
-
-}
-
-.section img {
-
-    width: 240px;
-} 
-
-.pictures {
-
-    width: 150px;
-    margin: 30px;
-    text-align: center;
-
-}
-
-.section li, .section h2 {
-    padding: 0.4em;
-
-}
-
-.two {
-
-    background-color: #c7babf;
-}
 
 
 
@@ -283,69 +277,5 @@ footer{
     color: rgb(255, 255, 255);
     font-weight: bolder;
     background-color: #663366;
-}
-
-.projeto {
-
-    width: 230px;
-    height: 200px;
-    box-sizing: border-box;
-    border-radius: 20px;
-    background-color: rgba(245, 245, 220, 0.479);
-    position: absolute;
-    text-align: center;
-    top: 45px;
-    right: -50px;
-    opacity: 0
-}
-
-.projeto:hover {
-    background-color: rgba(245, 245, 220, 0.945);
-}
-
-.projeto a {
-
-    font-size: 14pt;
-    width: 100%;
-    height: 100%;
-    transition: all 0.35s linear;
-
-}
-
-.projeto a:hover {
-
-    font-size: 108%;
-
-}
-
-@media screen and (max-width: 1000px) {
-
-    main{
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 750px) {
-
-    main{
-        width: 99vw;
-    }
-    .section-one {
-        height: 250px;
-    
-        flex-flow: column;
-        
-    }
-    .titles {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .titles h1 {
-        width: 230px;
-    }
-    .section-one p {
-        width: 90%;
-    }
 }
 
