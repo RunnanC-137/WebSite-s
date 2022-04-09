@@ -1,0 +1,204 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+}
+
+header {
+    background-color:brown;
+    color:azure;
+    text-align: center;
+}
+
+.table {
+
+    display: grid;
+    justify-content: center;
+    grid-template: auto auto auto auto auto / auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px 0;
+    background-color: antiquewhite;
+    
+}
+
+
+.animal {
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between ;
+
+    box-sizing: border-box;
+    padding: 5px;
+    
+    width: 175px;
+    height: 130px;
+    
+    background-color: azure;
+
+    border: 2px solid;
+
+    transition: all .4s;
+}
+
+.numero {
+
+    align-self: start;
+    color: brown;
+    margin-left: 3px;
+    transition: all .4s;
+}
+
+.numero:hover {
+
+    transform: scale(1.4);
+}
+
+.nome {
+    font-family: serif;
+    font-size: 25pt;
+    transition: all .4s;
+}
+
+.nome:hover {
+
+    transform: scale(1.2);
+}
+
+
+.sorteio {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+    width: 100%;
+
+}
+
+.sorteio .h2 div, .sorteio .sortear button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 40px;
+    width: 130px;
+
+    margin: 15px;
+
+    border-radius: 4px;
+
+    font-size: 21pt;
+}
+
+div.escolhidos div{
+
+    background-color: brown;
+    color: azure;
+
+    transition: all .4s;
+}
+
+div.aposta div{
+
+    background-color: azure;
+    border: 2px solid;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all .4s;
+}
+
+.sortear{
+
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.sortear button {
+
+    background-color: brown;
+    color: white;
+    font-weight: bolder;
+    transition: all .4s;
+
+}
+.sortear button:hover {
+
+    background-color: white;
+    color: brown;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 700px) {
+ 
+    
+    main, body {
+
+        width: 100vw;
+    }
+    
+    .table {
+
+        grid-template: auto auto auto auto auto auto auto auto/  auto auto;
+        gap: 5px;
+    }
+    
+    .animal {
+
+        width: 150px;
+        height: 120px;
+    }
+  
+    .sorteio {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-flow: column;
+
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    .table {
+
+        grid-template: auto auto auto auto auto auto auto auto/  auto auto;
+        gap: 5px;
+    }
+    
+    .animal {
+
+        width: 130px;
+        height: 100px;
+    }
+
+    .nome {
+        font-size: 21pt;
+    }
+    
+    .numero:hover {
+
+        transform: scale(1.4);
+    }
+}
