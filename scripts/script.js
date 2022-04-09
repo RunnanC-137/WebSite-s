@@ -34,7 +34,7 @@ const webSites = [
         jogoDoBixo:{
             site:"https://runnanc-137.github.io/WebSite-s/Jogo_do_Bixo",
             nome:"Jogo do bixo",
-            concluido: false,
+            concluido: true,
             descricao: "Nesse projeto eu recrio um famoso jogo de aposta com o objetijo de treinar o tratamento de numeros aleatorios, grid e DOM",
             img: "imgs/imagem-criacao-de-sites-600x450px.png"
         
