@@ -55,7 +55,6 @@ const webSites = [
 
 webSites.forEach( e => {
 
-    console.log()
     projetos.innerHTML += `<div class="section ${webSites.indexOf(e)%2 == 0 ? "": "one"}" id="${Object.keys(e)}">
 
             <div class="img">
