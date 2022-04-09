@@ -229,7 +229,7 @@ a {
 .img {
 
     display: flex;
-    justify-content: right;
+    justify-content: center;
     width: 250px;
     height: 70%;
 }
