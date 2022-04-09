@@ -22,9 +22,9 @@ const webSites = [
 },
     
     {
-        simpleProjects:{
+        media_enem:{
             site:"https://runnanc-137.github.io/WebSite-s/projetinhos",
-            nome:"Simples projects",
+            nome:"Calculador de media enem",
             concluido: false,
             descricao: "Aqui eu crio projetinhos de pequeno porte para fins específicos, são projetos simples execultados com HTML, CSS e JavaScript.",
             img: "imgs/pngegg.png"
