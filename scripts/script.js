@@ -81,7 +81,10 @@ webSites.forEach( e => {
 //////
 
 
+webSites.forEach( e => {
 
+    console.log(e)
+})
 
 
 /////
