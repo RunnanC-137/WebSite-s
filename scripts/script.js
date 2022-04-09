@@ -25,7 +25,7 @@ const webSites = [
         media_enem:{
             site:"https://runnanc-137.github.io/WebSite-s/media_enem",
             nome:"Média enem",
-            concluido: false,
+            concluido: true,
             descricao: "Aqui eu criei um projeto que calcula a média de ate cinco valores, criado principalmente para calcular a minha média do enem com os pesos específicos ",
             img: "imgs/pngegg.png"
     }
