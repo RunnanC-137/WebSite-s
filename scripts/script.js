@@ -23,10 +23,10 @@ const webSites = [
     
     {
         media_enem:{
-            site:"https://runnanc-137.github.io/WebSite-s/projetinhos",
-            nome:"Calculador de media enem",
+            site:"https://runnanc-137.github.io/WebSite-s/media_enem",
+            nome:"Média enem",
             concluido: false,
-            descricao: "Aqui eu crio projetinhos de pequeno porte para fins específicos, são projetos simples execultados com HTML, CSS e JavaScript.",
+            descricao: "Aqui eu criei um projeto que calcula a média de ate cinco valores, criado principalmente para calcular a minha média do enem com os pesos específicos ",
             img: "imgs/pngegg.png"
     }
 },
@@ -68,7 +68,7 @@ webSites.forEach( e => {
                 <h2>
                     <a href="${Object.values(e)[0].site}" target="_blank" rel="noopener noreferrer">${Object.values(e)[0].nome}</a> ${Object.values(e)[0].concluido == true ? "": "(Em produção)"}
                 </h2>
-                <hr style="width:100%; margin:5pt -6pt">
+                <hr style="width:90%; margin:5pt -6pt">
                 <p>
                     ${Object.values(e)[0].descricao}
                 </p>
