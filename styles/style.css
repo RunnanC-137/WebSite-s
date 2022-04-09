@@ -265,10 +265,6 @@ a {
     
 }
 
-
-
-
-
 footer{
 
     display: flex;
@@ -279,3 +275,6 @@ footer{
     background-color: #663366;
 }
 
+@media  (max-width) {
+    
+}
