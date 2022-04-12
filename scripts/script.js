@@ -27,7 +27,7 @@ const webSites = [
             nome:"Média enem",
             concluido: true,
             descricao: "Aqui eu criei um projeto que calcula a média de ate cinco valores, criado principalmente para calcular a minha média do enem com os pesos específicos ",
-            img: "imgs/pngegg.png"
+            img: "imgs/PngItem.png"
     }
 },
     {
