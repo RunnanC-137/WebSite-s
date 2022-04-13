@@ -4,13 +4,13 @@ const noticias =  {
 		{
 			titulo:"Tijolo ecológico",
 			data:"2022",
-			img: "../imgs/casa2.jpg",
+			img: "imgs/casa2.jpg",
 			
 		},
 		{
 			titulo:"Taipa de pilão",
 			data:"2022",
-			img: "../imgs/casa4.jpg",
+			img: "imgs/casa4.jpg",
 			
 		},
 		
@@ -29,7 +29,7 @@ const noticias =  {
 
 }
 
-noticias.nova("Adobe", "2022", "../imgs/casa3.jpg")
+noticias.nova("Adobe", "2022", "imgs/casa3.jpg")
 
 window.onload = function(e) {
 
