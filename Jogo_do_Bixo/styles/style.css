@@ -192,7 +192,7 @@ div.aposta div{
 
     .table {
 
-        grid-template: auto auto auto auto auto auto auto auto/  auto auto;
+        grid-template: auto auto auto auto auto auto auto auto / auto auto;
         gap: 5px;
     }
 
