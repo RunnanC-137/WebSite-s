@@ -10,7 +10,6 @@ body {
     display: flex;
     justify-content: center;
     height: 100vh;
-    width: 100vw;
 }
 
 main {
@@ -148,17 +147,27 @@ div.aposta div{
     font-weight: bolder;
 }
 
-@media screen and (max-width: 700px) {
- 
-    
-    main, body {
+@media screen and (max-width: 920px) {
 
-        width: 100vw;
+    .table {
+
+        grid-template: auto auto auto auto auto auto / auto auto  auto auto;
+        gap: 5px;
     }
+    
+    .animal {
+
+        width: 150px;
+        height: 120px;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
     
     .table {
 
-        grid-template: auto auto auto auto auto auto auto auto/  auto auto;
+        grid-template: auto auto auto auto auto auto auto / auto  auto auto;
         gap: 5px;
     }
     
@@ -179,26 +188,30 @@ div.aposta div{
 
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 450px) {
 
     .table {
 
         grid-template: auto auto auto auto auto auto auto auto/  auto auto;
         gap: 5px;
     }
-    
-    .animal {
 
-        width: 130px;
-        height: 100px;
-    }
 
     .nome {
-        font-size: 21pt;
+        font-size: 24pt;
     }
     
-    .numero:hover {
+}
 
-        transform: scale(1.4);
+@media screen and (max-width: 300px) {
+
+    .animal {
+
+        width: 120px;
+        height: 105px;
+    }
+
+    .nome, .numero {
+        font-size: 20pt;
     }
 }
