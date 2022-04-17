@@ -188,10 +188,12 @@ a {
     justify-content: space-between;
     width: 100%;    
 }
-
+.titles {
+    width: 46%;
+}
 
 .titles, .description p {
-    margin: 0pt 45pt;
+    margin: 10pt 45pt;
 }
 
 .titles h1, .titles h2 {
@@ -227,6 +229,7 @@ a {
 }
 .img img {
     display: block;
+    transform: scale(1.2);
 }
 
 .project-description {
@@ -268,7 +271,7 @@ footer{
     background-color: #663366;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 850px) {
 
     main {
 

@@ -18,8 +18,8 @@ const webSites = [
             concluido: false,
             descricao: "Aplicação criada com o intuito de ajudar quem não tem um currículo cria um de forma fácil. Projeto criado para treinar as habilidades de DOM e experiência do usuário.",
             img: "imgs/sites.png.opdownload"
-    }
-},
+        }
+    },
     
     {
         media_enem:{
@@ -28,8 +28,9 @@ const webSites = [
             concluido: true,
             descricao: "Aqui eu criei um projeto que calcula a média de ate cinco valores, criado principalmente para calcular a minha média do enem com os pesos específicos ",
             img: "imgs/PngItem.png"
-    }
-},
+        }
+    },
+
     {
         jogoDoBixo:{
             site:"https://runnanc-137.github.io/WebSite-s/Jogo_do_Bixo",
@@ -38,8 +39,9 @@ const webSites = [
             descricao: "Nesse projeto eu recrio um famoso jogo de aposta com o objetijo de treinar o tratamento de numeros aleatorios, grid e DOM",
             img: "imgs/imagem-criacao-de-sites-600x450px.png"
         
-    }
-},
+        }
+    },
+
     {
         myBlog:{
             site:"https://runnanc-137.github.io/WebSite-s/My_Blog",
@@ -47,9 +49,19 @@ const webSites = [
             concluido: false,
             descricao: "Um blog em que eu escrevo sobre assustos do meu interesse, seja ele relacionado com programação ou não",
             img: "imgs/Criacao-de-Websites.png"
-    }
-},
+        }
+    
+    },
 
+    {
+        LandingPage:{
+            site:"https://runnanc-137.github.io/WebSite-s/landpage",
+            nome:"Land Page",
+            concluido: false,
+            descricao: "Uma landing page que eu crie baseado no tutorial da Rafaela Ballerine",
+            img: "imgs/Vector-DJ-Girl-PNG-Photos (1).png"
+        }
+    },
 ]
 
 
