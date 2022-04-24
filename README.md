@@ -4,19 +4,28 @@
 #### Aqui eu te mostrarei minhas habilidades como programador atraves dos dos meus projetos, fique avontade para testar tudo que puder
 #### De uma olhada no meu site onde eu hospedo os meus projetos [My-Site](https://runnanc-137.github.io/WebSite-s/)
 
-### [O Jogo do Bixo](https://github.com/RunnanC-137//Jogo_do_Bixo) 
+### [O Jogo do Bixo](https://runnanc-137.github.io/WebSite-s/Jogo_do_Bixo) 
 
-  Ainda está em andamento, atualmen e um sorteio bem simples apenas com alguns bichos, porém, no futuro será o maior site de apostas inlegais que o mundo já viu kkkk zueira  
+  O projeto leva o nome de um complexo jogo de apostas, porem aqui o "jogo" e bem mais simples, com o jogador podemdo escolher apenas um animal e um numero diferente 
 
-### [Meus projetinhos](https://github.com/RunnanC-137/simple_projects) 
+### [media Enem](https://runnanc-137.github.io/WebSite-s/media_enem) 
 
 <p>
-  Aqui eu coloco projetos que nao tem muita complexidade, mas podem ser bem úteis para determinados momentos, como o do enem por exemplo
+  Aqui eu fiz uma aplicação simples para calcular a media das notas do Enem, sejam elas simples ou ponderadas
 </p>
 
-### [Meu blog](https://github.com/RunnanC-137/My_Blog) 
+### [Meu blog](https://runnanc-137.github.io/WebSite-s/My_Blog) 
 
 Meu blog onde eu vou escrever sobre notícia e materias do meu interesse que eu achar relevate
+
+### [Jogo da velha](https://runnanc-137.github.io/WebSite-s/jogo_da_velha) 
+
+Projeto do curso do Programador Br proposto para por em prática o conteúdo do curso
+
+
+### [Landing Page](https://runnanc-137.github.io/WebSite-s/landpage) 
+
+Aplicação desenvolvida com base no tutorial da youtuber/programadora [Rafaela Ballerie](https://www.youtube.com/c/rafaellaballerini) sobre [landing pages](https://www.youtube.com/watch?v=llF6vD-RljE&t=2497s) 
 
 ##
 Made for Ruan Vieira See my [Linkeding](https://www.linkedin.com/ruan-viera-04a9ab1b9)
