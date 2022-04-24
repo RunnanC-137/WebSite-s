@@ -12,16 +12,6 @@ const caixa = document.querySelector("#logo")
 const webSites = [
     
     {
-        criadorDeCurriculo:{
-            site:"https://runnanc-137.github.io/WebSite-s/Criador_De_Curriculo",
-            nome:"Criador de currículo",
-            concluido: false,
-            descricao: "Aplicação criada com o intuito de ajudar quem não tem um currículo cria um de forma fácil. Projeto criado para treinar as habilidades de DOM e experiência do usuário.",
-            img: "imgs/sites.png.opdownload"
-        }
-    },
-    
-    {
         media_enem:{
             site:"https://runnanc-137.github.io/WebSite-s/media_enem",
             nome:"Média enem",
