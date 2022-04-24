@@ -224,12 +224,11 @@ a {
 
     display: flex;
     justify-content: center;
-    width: 250px;
-    height: 70%;
+    height: 100%;
 }
 .img img {
     display: block;
-    transform: scale(1.2);
+    transform: scale(.8);
 }
 
 .project-description {
@@ -271,7 +270,15 @@ footer{
     background-color: #663366;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1000px) {
+
+    .img img {
+        transform: scale(0.7);
+        
+    }
+}
+
+@media screen and (max-width: 860px) {
 
     main {
 
@@ -310,12 +317,12 @@ footer{
     }
 
     .img {
-        width: 90%;
-        height: 50%;
-        justify-content: center;
+
+        height: 75%;
     }
+
     .img img {
-        transform: scale(0.8);
+        transform: scale(.9);
     }
 
     .project-description {
@@ -341,15 +348,25 @@ footer{
         flex-flow: column-reverse;;
     }
 }
+@media screen and (max-width: 600px) {
 
-@media screen and (max-width: 300px){
-    
-    
     .img {
+
+        height: 65%;
         width: 100%;
-        height: 35%;
     }
+
     .img img {
-        transform: scale(1);
+        transform: scale(.8);
+    }
+}
+
+@media screen and (max-width: 321px){
+    
+    
+
+
+    .img img {
+        transform: scale(.7);
     }
 }
