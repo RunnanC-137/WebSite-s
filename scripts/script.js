@@ -62,6 +62,15 @@ const webSites = [
             img: "imgs/Vector-DJ-Girl-PNG-Photos (1).png"
         }
     },
+    {
+        JogoDaVelha:{
+            site:"https://runnanc-137.github.io/WebSite-s/landpage",
+            nome:"Jogo da velha (multiplayer)",
+            concluido: true,
+            descricao: "um proveto que faz parte do curso do programador br",
+            img: "https://https://e7.pngegg.com/pngimages/129/729/png-clipart-tic-tac-toe-game-others-game-angle.png-icons-png.flaticon.com/512/3443/3443191.png"
+        }
+    },
 ]
 
 
