@@ -17,7 +17,7 @@ const webSites = [
             nome:"Média enem",
             concluido: true,
             descricao: "Aqui eu criei um projeto que calcula a média de ate cinco valores, criado principalmente para calcular a minha média do enem com os pesos específicos ",
-            img: "imgs/PngItem.png"
+            img: "imgs/sites.png.opdownload"
         }
     },
 
@@ -54,8 +54,8 @@ const webSites = [
     },
     {
         JogoDaVelha:{
-            site:"https://runnanc-137.github.io/WebSite-s/landpage",
-            nome:"Jogo da velha (multiplayer)",
+            site:"https://runnanc-137.github.io/WebSite-s/jogo_da_velha",
+            nome:"Jogo da velha - multiplayer",
             concluido: true,
             descricao: "um proveto que faz parte do curso do programador br",
             img:"imgs/jogo-da-velha.png"
