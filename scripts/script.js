@@ -68,7 +68,7 @@ const webSites = [
             nome:"Jogo da velha (multiplayer)",
             concluido: true,
             descricao: "um proveto que faz parte do curso do programador br",
-            img: "https://https://e7.pngegg.com/pngimages/129/729/png-clipart-tic-tac-toe-game-others-game-angle.png-icons-png.flaticon.com/512/3443/3443191.png"
+            img:"imgs/jogo-da-velha.png"
         }
     },
 ]
