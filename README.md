@@ -8,7 +8,7 @@
   O projeto leva o nome de um complexo jogo de apostas, porem aqui o "jogo" e bem mais simples, com o jogador podemdo escolher apenas um animal e um numero diferente 
 ##### link do repositório [Jogo_Do_Bicho](https://github.com/RunnanC-137/Jogo_Do_Bicho) 
 
-### [media Enem](https://runnanc-137.github.io/WebSite-s/media_enem) 
+### [Media Enem](https://runnanc-137.github.io/WebSite-s/media_enem) 
 
   Aqui eu fiz uma aplicação simples para calcular a media das notas do Enem, sejam elas simples ou ponderadas
  ##### link do repositório [media_enem](https://github.com/RunnanC-137/media_enem) 
