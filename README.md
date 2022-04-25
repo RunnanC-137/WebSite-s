@@ -11,7 +11,7 @@
 ### [Media Enem](https://runnanc-137.github.io/WebSite-s/media_enem) 
 
   Aqui eu fiz uma aplicação simples para calcular a media das notas do Enem, sejam elas simples ou ponderadas
- ##### link do repositório [media_enem](https://github.com/RunnanC-137/media_enem) 
+ ##### [link](https://github.com/RunnanC-137/media_enem) do repositório
 
 ### [Meu blog](https://runnanc-137.github.io/WebSite-s/My_Blog) 
 
