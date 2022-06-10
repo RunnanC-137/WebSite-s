@@ -10,17 +10,6 @@ const caixa = document.querySelector("#logo")
 
 ///
 const webSites = [
-    
-    {
-        media_enem:{
-            site:"https://runnanc-137.github.io/WebSite-s/media_enem",
-            nome:"Média enem",
-            concluido: true,
-            descricao: "Aqui eu criei um projeto que calcula a média de ate cinco valores, criado principalmente para calcular a minha média do enem com os pesos específicos ",
-            img: "imgs/sites.png"
-        }
-    },
-
     {
         jogoDoBixo:{
             site:"https://runnanc-137.github.io/WebSite-s/Jogo_do_Bixo",
@@ -33,31 +22,12 @@ const webSites = [
     },
 
     {
-        myBlog:{
-            site:"https://runnanc-137.github.io/WebSite-s/My_Blog",
-            nome:"My blog",
-            concluido: false,
-            descricao: "Um blog em que eu escrevo sobre assustos do meu interesse, seja ele relacionado com programação ou não",
-            img: "imgs/Criacao-de-Websites.png"
-        }
-    
-    },
-    {
         JogoDaVelha:{
             site:"https://runnanc-137.github.io/WebSite-s/jogo_da_velha",
             nome:"Jogo da velha - [multiplayer]",
             concluido: true,
             descricao: "um proveto que faz parte do curso do programador br",
             img:"imgs/jogo-da-velha.png"
-        }
-    },
-    {
-        LandingPage:{
-            site:"https://runnanc-137.github.io/WebSite-s/landpage",
-            nome:"Land Page",
-            concluido: false,
-            descricao: "Uma landing page que eu crie baseado no tutorial da Rafaela Ballerine",
-            img: "imgs/Vector-DJ-Girl-PNG-Photos (1).png"
         }
     },
     
