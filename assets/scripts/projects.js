@@ -16,6 +16,7 @@ const webSites = [
         src:"imgs/jogo-da-velha.png"
     }
 ]
+
 const Create = {
 
     nome: null,
@@ -28,8 +29,8 @@ const Create = {
 
         let section = document.createElement("div")
         section.classList.add("section")
-        section.appendChild(this.img())
         section.appendChild(this.description())
+        section.appendChild(this.img())
 
         return section
     },
@@ -63,7 +64,7 @@ const Create = {
     title: function() {
         let title =  document.createElement("h2")
         title.appendChild(this.link())
-        title.innerHTML += this.status
+        title.innerHTML += (this.status == true ? "": " (Em produção)")
 
         return title
     },
