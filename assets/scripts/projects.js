@@ -13,7 +13,15 @@ const webSites = [
         href:"https://runnanc-137.github.io/WebSite-s/jogo_da_velha",
         status:false,
         descricao: "um proveto que faz parte do curso do programador br",
-        src:"imgs/jogo-da-velha.png"
+        src:"imgs/PngItem.png"
+    },
+
+    {
+        nome:"Jogo da memória",
+        href:"https://runnanc-137.github.io/WebSite-s/jogo_da_velha",
+        status:false,
+        descricao: "um proveto que faz parte do curso do programador br",
+        src:"imgs/Websites.png"
     }
 ]
 

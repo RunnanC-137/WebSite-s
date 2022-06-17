@@ -64,7 +64,7 @@ li {
     flex-direction: column;
     justify-content: center;
 
-    width: 500px;
+    width: 450px;
 }
 
 .description p {
@@ -88,7 +88,6 @@ footer {
     flex-direction: column;
     justify-content: center;
 
-    width: 100vw;
     height: 25px;
 
     font-size: 16pt;
