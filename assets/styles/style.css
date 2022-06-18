@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-a, li {
+a {
     text-decoration: none;
     list-style: none;
     color:darksalmon;
@@ -25,6 +25,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    color: aliceblue;
 }
 
 ul {

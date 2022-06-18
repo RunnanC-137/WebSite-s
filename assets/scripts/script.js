@@ -18,10 +18,9 @@ window.onload = function() {
     const sections = document.querySelectorAll(".section")
     
     for (let index in sections) {
-
-        index % 2 == 0 ? sections[index].classList.add("outher") : false
-        
-
+        index % 2 == 0 ? 
+        sections[index].classList.add("outher") : 
+        false
     }
 }
 
