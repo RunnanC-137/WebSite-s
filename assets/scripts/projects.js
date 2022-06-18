@@ -3,7 +3,7 @@ const webSites = [
         nome:"Jogo do bixo",
         href:"https://runnanc-137.github.io/WebSite-s/Jogo_do_Bixo",
         status: true,
-        descricao: "Nesse projeto eu recrio um famoso jogo de aposta com o objetijo de treinar o tratamento de numeros aleatorios, grid e DOM",
+        descricao: "Um famoso jogo de aposta com o objetijo de treinar o tratamento de numeros aleatorios, grid e DOM",
         src: "imgs/criacao-sites.png"
     
     },
@@ -12,15 +12,15 @@ const webSites = [
         nome:"Jogo da velha",
         href:"https://runnanc-137.github.io/WebSite-s/jogo_da_velha",
         status:false,
-        descricao: "um proveto que faz parte do curso do programador br",
+        descricao: "um projeto que faz parte do curso do programador br",
         src:"imgs/PngItem.png"
     },
 
     {
         nome:"Jogo da memória",
-        href:"https://runnanc-137.github.io/WebSite-s/jogo_da_velha",
+        href:"https://runnanc-137.github.io/WebSite-s/jogo_da_memoria",
         status:false,
-        descricao: "um proveto que faz parte do curso do programador br",
+        descricao: "um projeto que faz parte do curso do programador br",
         src:"imgs/Websites.png"
     }
 ]
